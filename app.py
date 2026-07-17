@@ -5,7 +5,7 @@ import pandas as pd
 model=joblib.load('KNN_heart.pkl')
 scalar=joblib.load('scalar.pkl')
 columns=joblib.load('columns.pkl')
-st.title("Heart Stroke Prediciton by UmerBro s🌟")
+st.title("Heart Stroke Prediciton by UmerBro🌟")
 age = st.slider("Age", 18, 100, 40)
 sex = st.selectbox("SEX", ['M', 'F'])
 chest_pain = st.selectbox("Chest Pain Type", ["ATA", "NAP", "TA", "ASY"])
